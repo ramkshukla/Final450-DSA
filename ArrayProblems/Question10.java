@@ -17,27 +17,23 @@ public class Question10 {
             throw new IllegalArgumentException("Array is null or empty");
         }
         if (arr.length == 1) {
-            return 0; // No jumps needed for single element
+            return 0;
         }
-        int jumps = 0;         // Number of jumps
-        int currentEnd = 0;    // Farthest index reachable with current jumps
-        int farthest = 0;      // Farthest index reachable from current range
+        int jumps = 0;
+        int currentEnd = 0;
+        int farthest = 0;
         int n = arr.length;
 
         for(int i=0; i<arr.length-1; i++){
             farthest = Math.max(farthest, i+arr[i]);
-            // If we reach the end of the current jump range
             if (i == currentEnd) {
                 jumps++;
                 currentEnd = farthest;
 
-                // If we can't move forward, end is unreachable
                 if (currentEnd <= i) {
-                    return -1; // Indicates end is unreachable
+                    return -1;
                 }
             }
-
-            // Optimization: If we can reach the end, no need to continue
             if (currentEnd >= n - 1) {
                 return jumps;
             }
