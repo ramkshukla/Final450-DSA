@@ -174,7 +174,7 @@ class Pair{
 }
 */
 
-// Maximum and Minimu Elements of an array by comparing by Pairs
+// Maximum and Minimum Elements of an array by comparing by Pairs
 class Question2{
     public static Pair getMinMax(int[] arr, int length){
         Pair minmax = new Pair();
