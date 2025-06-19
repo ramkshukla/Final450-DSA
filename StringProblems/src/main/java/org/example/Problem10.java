@@ -5,7 +5,7 @@ public class Problem10 {
         String str = "abc";
         System.out.println("All Subsequences of \"" + str + "\":");
         printSubsequences(str, "");
-    }
+     }
     public static void printSubsequences(String input, String output){
         if(input.isEmpty()){
             System.out.println(output);

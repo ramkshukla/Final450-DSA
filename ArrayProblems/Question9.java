@@ -3,6 +3,8 @@ package ArrayProblems;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
+// Minimise the maximum difference between heights [V.IMP]
+
 public class Question9 {
     public static void main(String[] args) {
         int[] arr1 = {1, 5, 8, 10};

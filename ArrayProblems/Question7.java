@@ -1,5 +1,6 @@
 package ArrayProblems;
 
+// Write a program to cyclically rotate an array by one.
 public class Question7 {
 
     public static void main(String[] args) {

@@ -1,5 +1,6 @@
 package ArrayProblems;
 
+// Merge 2 sorted arrays without using Extra space.
 public class Question12 {
 
     public static void merge(int[] arr1,int[] arr2){
