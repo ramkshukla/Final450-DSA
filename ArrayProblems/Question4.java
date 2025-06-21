@@ -1,6 +1,6 @@
 package ArrayProblems;
 
-//Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo
+// Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo
 public class Question4 {
     public static void main(String[] args) {
         int[] array = {2, 0, 2, 1, 1, 0};
@@ -8,10 +8,10 @@ public class Question4 {
         printArray(array);
     }
 
-    public static  void sort01(int[] arr){
-        int high = arr.length-1;
+    public static void sort01(int[] arr){
         int low = 0;
         int mid = 0;
+        int high = arr.length-1;
         while(mid <= high){
             switch (arr[mid]){
                 case 0:

@@ -13,12 +13,6 @@ public class Question7 {
         if(arr == null || arr.length == 0){
             throw new IllegalArgumentException("Array must not be null or empty");
         }
-//        int temp = arr[0];
-//        for(int i=1; i<arr.length; i++){
-//            arr[i-1] = arr[i];
-//        }
-//        arr[arr.length-1] = temp;
-
         int temp = arr[arr.length-1];
         for(int i=arr.length-2; i>=0; i--){
             arr[i+1] = arr[i];
