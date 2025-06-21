@@ -1,5 +1,6 @@
 package org.example;
 
+// Find next greater number with same set of digits. [Very Very IMP]
 public class Problem15 {
 
     public static void findNext(char[] digits) {
