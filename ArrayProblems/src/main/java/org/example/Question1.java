@@ -13,7 +13,6 @@ class Question1{
         for(int i=arr.length-1; i>=0; i--){
             reversed.append(arr[i]).append(" ");
         }
-
         String[] reversedArray = reversed.toString().split(" ");
         System.out.println(Arrays.asList(reversedArray));
     }
@@ -44,7 +43,7 @@ class Question1{
 //}
 //
 //
-//// Reverse an Array Using Swapping Method
+// Reverse an Array Using Swapping Method
 //
 //
 //class Question1{

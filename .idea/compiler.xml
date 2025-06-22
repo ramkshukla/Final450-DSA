@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="StringProblems" />
         <module name="LinkedListProblem" />
+        <module name="ArrayProblems" />
       </profile>
     </annotationProcessing>
   </component>

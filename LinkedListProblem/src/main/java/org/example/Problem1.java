@@ -1,7 +1,7 @@
 package org.example;
 
 public class Problem1 {
-     static class Node{
+       public static class Node{
         int data;
         Node next;
         Node(int new_data){
