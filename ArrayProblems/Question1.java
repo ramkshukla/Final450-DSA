@@ -5,8 +5,22 @@ import java.util.Arrays;
 import java.util.Collections;
 
 
+// Reverse an Array Using StringBuilder.append() Method
+
+class Question1{
+    public static void main(String[] args) {
+        String[] arr = {"Hello", "World"};
+        StringBuilder reversed = new StringBuilder();
+        for(int i=arr.length-1; i>=0; i--){
+            reversed.append(arr[i]).append(" ");
+        }
+
+        String[] reversedArray = reversed.toString().split(" ");
+        System.out.println(Arrays.asList(reversedArray));
+    }
+}
 // Reverse an Array Using Temp Arrays
-/* 
+
 public class Question1{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
@@ -29,10 +43,10 @@ public class Question1{
         scanner.close();
     }
 }
-*/
+
 
 // Reverse an Array Using Swapping Method
-/* 
+
 
 class Question1{
     public static void main(String[] args){
@@ -56,10 +70,11 @@ class Question1{
     scanner.close();
     }
 }
-*/
+
 
 // Reverse an Array Collections.Reverse Method
-/* 
+
+
 class Question1{
     public static void main(String[] args) {
         System.out.println("Enter the length of the array : ");
@@ -73,21 +88,5 @@ class Question1{
         Collections.reverse(Arrays.asList(arr));
         System.out.println(Arrays.toString(arr));
         scanner.close();
-    }
-}
-*/
-
-// Reverse an Array Using StringBuilder.append() Method
-
-class Question1{
-    public static void main(String[] args) {
-        String[] arr = {"Hello", "World"};
-        StringBuilder reversed = new StringBuilder();
-        for(int i=arr.length-1; i>=0; i--){
-            reversed.append(arr[i]).append(" ");
-        }
-
-        String[] reversedArray = reversed.toString().split(" ");
-        System.out.println(Arrays.asList(reversedArray));
     }
 }

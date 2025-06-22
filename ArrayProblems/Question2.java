@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 // Find MAX and MIN BY Set INT_MAX And INT_MIN
-/* 
+
 public class Question2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -43,7 +43,7 @@ public class Question2 {
 
 
 // Maximum and Minimum Element of an array using sorting
-/* 
+
 class Question2{
 public static void main(String[] args) {
     System.out.println("Enter the length of the array : ");
@@ -68,10 +68,10 @@ class Pair{
     public int max;
     public int min;
 }
-*/
+
 
 // Maximum and Minimum Element of an array using Linear Search
-/* 
+/
 class Question2{
     public static Pair getMinMax(int[] arr, int length) {
         Pair minmax = new Pair();
@@ -114,10 +114,9 @@ class Pair{
     public int max;
     public int min;
 }
- */
 
 // Maximum and Minimum Element using Tournament method
-/* 
+
 class Question2{
     public static Pair getMinMax(int[] arr, int low, int high){
         Pair minmax = new Pair();
@@ -172,7 +171,7 @@ class Pair{
     public int min;
     public int max;
 }
-*/
+
 
 // Maximum and Minimum Elements of an array by comparing by Pairs
 class Question2{
